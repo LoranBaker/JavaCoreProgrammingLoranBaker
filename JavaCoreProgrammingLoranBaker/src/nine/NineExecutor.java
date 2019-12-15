@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Eight.enumeration;
+package nine;
 
 /**
  *
  * @author PC
  */
-public enum Gender {
-    MALE,
-    FAMALE,
-    TRANS, FEMALE;
+public class NineExecutor {
+    public static void main(String[] args) {
+        
+    }
 }

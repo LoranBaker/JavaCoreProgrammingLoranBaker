@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Eight.enumeration;
+package Eight.inferfaces;
+
+import Eight.enumeration.Person;
 
 /**
  *
  * @author PC
  */
-public enum Gender {
-    MALE,
-    FAMALE,
-    TRANS, FEMALE;
+public interface CheckPerson {
+    boolean checkPerson(Person person);
+
+    public boolean check(Person person);
 }
