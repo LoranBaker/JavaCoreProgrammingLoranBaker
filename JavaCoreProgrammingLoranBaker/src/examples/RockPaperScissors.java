@@ -63,6 +63,6 @@ public class RockPaperScissors {
         } else {
             System.out.println("Invalid user input.");
         }
-
+        
     }
 }
