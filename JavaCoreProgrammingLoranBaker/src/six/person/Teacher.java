@@ -1,8 +1,6 @@
 
 package six.person;
 
-import six.Person;
-
 public class Teacher extends Person {
     private double salary;
 

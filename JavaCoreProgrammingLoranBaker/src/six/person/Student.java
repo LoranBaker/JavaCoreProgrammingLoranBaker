@@ -5,8 +5,6 @@
  */
 package six.person;
 
-import six.Person;
-
 /**
  *
  * @author PC
@@ -23,5 +21,7 @@ public class Student extends Person{
         return studentNumber;
     }
     
-    
+    public void textOfPerson(){
+        System.out.println("Ime: " + name  + "Prezime: " + surname + "Student number: " + studentNumber);
+    } 
 }

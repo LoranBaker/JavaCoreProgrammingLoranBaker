@@ -1,7 +1,5 @@
 package six.person;
 
-import six.Person;
-
 public class PersonExecutor {
 
     public static void main(String[] args) {
@@ -21,6 +19,6 @@ public class PersonExecutor {
             return "Teacher";
         }else{
             return "Obicna persona";
-        }
+        }  
     }
 }

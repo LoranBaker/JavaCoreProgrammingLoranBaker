@@ -1,5 +1,5 @@
 
-package six;
+package six.person;
 
 public class Person {
     private static int counter = 0;

@@ -1,5 +1,7 @@
 
-package six;
+package six.calculator;
+
+import six.person.Person;
 
 public class SixExecutor {
     public static void main(String[] args) {
