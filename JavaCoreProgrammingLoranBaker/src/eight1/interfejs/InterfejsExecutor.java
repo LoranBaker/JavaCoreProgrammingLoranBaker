@@ -10,7 +10,7 @@ public class InterfejsExecutor {
 
             @Override
             public String makeNoise() {
-                return "Vidljiv samo unutar funkcije(anonimni)"; 
+                return "Vidljiv samo unutar main funkcije(anonimni)"; 
             }     
         };
         //zamjena za od 6 do 12 linije
@@ -23,6 +23,10 @@ public class InterfejsExecutor {
                 return person.getGender().equals(Gender.MALE);
             }
         };
+        boolean result = maleCheckPerson.check(new Person("Loran", "Baker", Gender.MALE));
+        System.out.println(result);
+        CheckPerson femalePerson = (Person p) -> p.getGender().equals(Gender.FEMALE);
+        System.out.println(femalePerson);
         String noise = noiseMaker.makeNoise();
         System.out.println(noise);
         
