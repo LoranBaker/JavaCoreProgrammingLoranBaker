@@ -3,6 +3,7 @@ package nine1.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 
 public class CollectionExectuor {
@@ -15,13 +16,18 @@ public class CollectionExectuor {
             System.out.println(name);
         }
         System.out.println(" ");
+      
         Collection<String> iterableCity = new ArrayList<>();
+        
+        Iterator<String> iterator = iterableCity.iterator();
+        System.out.println(iterator);
+        /*
         for (String name : arrayOfNames) {
             iterableCity.add(name);
         }
         for (String name : iterableCity) {
             System.out.println(name);
-        }
+        }*/
             /*
             static void printCollection(Collection<String> collectionOfString){
             for(String stringElement: collectionOfString){
